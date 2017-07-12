@@ -15,7 +15,8 @@ class MomoisAwesome:
     @commands.command(pass_context=True)
     async def dispatch(self, ctx):
         author = ctx.message.author
-        commandmsg = "```"
+        commandmsg = "Here is a list of the dispatches I am authorized to retrieve."
+        commandmsg += "```"
         commandmsg += "--- AUGUSTIN ALLIANCE ---\n"
         commandmsg += "aa_info : Master dispatch\n"
         commandmsg += "aa_foreign : Foreign relations\n"
@@ -73,8 +74,10 @@ class MomoisAwesome:
     async def commands(self, ctx):
         author = ctx.message.author
 
+        helpmsgone = "Hi, I am the Augustin Alliance server bot! I can play music, start polls, show NS nations, and more. This is a list of commands I respond to."
+        
             #The first message block
-        helpmsgone = "```"
+        helpmsgone += "```"
         helpmsgone += "     AUDIO\n\n"
         helpmsgone += "  Command      Syntax                           Description\n"
         helpmsgone += "------------------------------------------------------------\n"
