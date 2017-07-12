@@ -108,7 +108,7 @@ class MomoisAwesome:
         helpmsgtwo += "  trivia       !trivia list                     Starts a trivia session with the specified list\n"
         helpmsgtwo += "  zalgo        !zalgo #size (1-7) text          HE COMES\n"
         helpmsgtwo += "  serverinfo   !serverinfo                      Shows information about the server.\n"
-        helpmsgtwo += "  userinfo     !userinfo @user                  Shows information about a user.
+        helpmsgtwo += "  userinfo     !userinfo @user                  Shows information about a user."
         helpmsgtwo += "```"
 
             #The third block
